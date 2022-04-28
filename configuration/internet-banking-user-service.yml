@@ -27,8 +27,8 @@ app:
     keycloak:
       server-url: http://localhost:8080/auth
       realm: javatodev-internet-banking
-      clientId: internet-banking-api-client
-      client-secret: FZ1JulODWELfIBVK9g1U6VlBdlsc2S4C
+      clientId: internet-banking-core-client
+      client-secret: ob8aF28f9OD8lIdaKXiVec7JKZoFi778
   feign:
     client:
       core-banking: core-banking-service
